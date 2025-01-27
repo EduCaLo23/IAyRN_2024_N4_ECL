@@ -10,9 +10,9 @@ np.random.seed(0)
 horas_estudio = np.random.rand(100, 1) * 10 
 calificaciones = 2 * horas_estudio + np.random.randn(100,1) * 2
 
--Durante el preprocesamiento de los datos, se utilizará la función “train_test_split” de la librería scikit-learn para generar los conjuntos de datos de entrenamiento (train_data, train_labels) y datos de prueba (test_data, test_label). Deberán de utilizar una relación de 80% para entrenamiento y 20% para prueba. 
--Se entrenará el modelo de regresión lineal con los datos de entrenamiento con la función “fit” de la librería scikit-learn. 
--Realizar predicciones con el conjunto de datos de prueba (train_data) y graficar el modelo de regresión lineal con estas predicciones. Se utilizará la función “mean_squared_error” de scikit-learn para calcular el error cuadrático medio, que será la métrica a utilizar para evaluar el desempeño del modelo durante la prueba. Se deberá mostrar dicho resultado. 
+- Durante el preprocesamiento de los datos, se utilizará la función “train_test_split” de la librería scikit-learn para generar los conjuntos de datos de entrenamiento (train_data, train_labels) y datos de prueba (test_data, test_label). Deberán de utilizar una relación de 80% para entrenamiento y 20% para prueba. 
+- Se entrenará el modelo de regresión lineal con los datos de entrenamiento con la función “fit” de la librería scikit-learn. 
+- Realizar predicciones con el conjunto de datos de prueba (train_data) y graficar el modelo de regresión lineal con estas predicciones. Se utilizará la función “mean_squared_error” de scikit-learn para calcular el error cuadrático medio, que será la métrica a utilizar para evaluar el desempeño del modelo durante la prueba. Se deberá mostrar dicho resultado. 
 
 Recordar la estructura que se ha mencionado en clase para este tipo de proyectos:
   1. Cargar librerías
