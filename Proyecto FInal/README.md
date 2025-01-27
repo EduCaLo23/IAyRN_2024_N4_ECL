@@ -1,4 +1,4 @@
-------------------------------------- Proyecto Final ----------------------------------------
+# Proyecto Final 
 Objetivo: Entrenar una red neuronal convolucional (CNN) en un conjunto de imágenes de libre elección.
 
 Instrucciones:
