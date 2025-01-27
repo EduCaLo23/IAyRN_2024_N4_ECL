@@ -1,1 +1,32 @@
-Actividades
+Instrucciones.- 
+
+El estudiante entrenará un modelo de Red Neuronal Convolucional en Google Colab por medio del lenguaje de programación Python. Este modelo usará el conjunto de datos MNIST; este conjunto de datos contiene imágenes de baja resolución con dígitos del 0 al 9 escritos a mano. El conjunto de datos es parte de la librería Keras. Más información acerca de este conjunto de datos: https://keras.io/api/datasets/mnist/  
+
+Durante el preprocesamiento de los datos, se utilizará la función “load_data()” de la librería Keras para cargar el conjunto de datos y generar los conjuntos de entrenamiento (train_data, train_labels) y de prueba (test_data, test_label). Se puede utilizar la división de datos predeterminada por esta misma función.
+
+Se entrenará una red neuronal artificial prealimentada con los datos de entrenamiento utilizando la función “fit” de la librería tensorflow. El estudiante propondrá una estructura de red neuronal artificial prealimentada. La función de activación en la capa de salida deberá ser softmax. 
+
+Se establecerá el tipo de función de pérdida y optimizador a utilizar. La métrica a utilizar para evaluar el proceso de entrenamiento será la exactitud (accuracy).
+
+Utilizar la función “evaluate” para mostrar la exactitud de predicción del modelo con el conjunto de datos de prueba (test_data). 
+
+Realizar 5 diferentes predicciones con el conjunto de datos de prueba (test_data). En el resultado mostrar la predicción y el valor real. 
+
+Responde las siguientes preguntas:
+
+¿Cuántas épocas usaste para mejorar el rendimiento del modelo en comparación con la red neuronal prealimentada de la actividad 5? 
+
+¿Obtuviste un mejor rendimiento con este modelo o con el de la actividad 5? ¿Por qué?
+
+
+Recordar la estructura que se ha mencionado en clase para este tipo de proyectos:
+
+Cargar librerías.
+
+Cargar datos.
+
+Preprocesamiento de datos. 
+
+Selección y entrenamiento del modelo. 
+
+Prueba de modelo. 
